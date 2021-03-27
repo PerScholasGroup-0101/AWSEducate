@@ -1,0 +1,12 @@
+1- Compute-storage-analytics
+2- Web development-Coding-prgramming
+3- Scripting-Programming language
+4- Network Architecture-security
+5- Network Protocols-Coding
+6- Relational databases-scripting languages
+7- Relational & non-relational databases-programming languages
+8- Coding-scripting languages
+9- Distributed systems-Data Analytics
+10- Programming-scripting-data
+11- AWS solutions-network architecture
+12- Programming-scripting languages
