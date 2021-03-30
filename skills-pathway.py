@@ -13,4 +13,5 @@ skill_path = {'1': 'Cloud Computing 101',
     }
 
 skill = input('What skill 1-12 are you most interested in? ')
-print(skill_path[skill])
+skill_int = (skill_path[skill])
+print(skill_int)
