@@ -1,3 +1,5 @@
+
+
 print('Hello future cloud computing expert! Which of the below skills interest you the most?' )
 
 fprint=open('skills.txt', 'r')
@@ -34,3 +36,4 @@ for line in fhand:
 #We need an option given to the user "do you want to learn more, and about which career pathway"        
 #We may need max length function to limit the number of word(or characters printed for final output)
 #We need pop-up screen for the learning pathways
+
