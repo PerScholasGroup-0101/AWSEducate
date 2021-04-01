@@ -1,0 +1,14 @@
+       | Num |                Skills                 |  Num |                Skills                 |
+       +---------------------------------------------++---------------------------------------------+
+       |  1  | Compute- storage- analytics           |  7   | RDB and non RDB-programming languages |
+       +---------------------------------------------++---------------------------------------------+
+       |  2  | Web development-Coding-programming    |  8   | Coding-scripting languages            |
+       +---------------------------------------------++---------------------------------------------+
+       |  3  | Scripting- Programming language       |  9   | Distributed systems- Data Analytics   |
+       +---------------------------------------------++---------------------------------------------+
+       |  4  | Network Architecture- security        |  10  | Programming-scripting-data            |
+       +---------------------------------------------++---------------------------------------------+
+       |  5  | Network Protocols- Coding             |  11  | AWS solutions-network architecture    |
+       +---------------------------------------------++---------------------------------------------+
+       |  6  | RDB - scripting languages             |  12  | Programming-scripting languages       |
+       +---------------------------------------------++---------------------------------------------+
