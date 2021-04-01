@@ -6,7 +6,6 @@ print("Hello everyone!\nWelcome to AWS Educate Program.") #The simplest of pytho
 name = input("what is your name? ")
 print("Hello!", name)
 print('\n future cloud computing expert! Which of the below skills interest you the most?')
-#print("\033[1;34;40m")
 print('+---------------------------------------------++---------------------------------------------+\n| Num |                Skills                 |  Num |                Skills                 |\n+---------------------------------------------++---------------------------------------------+\n|  1  | Compute- storage- analytics           |  7   | RDB and non RDB-programming languages |')
 print('+---------------------------------------------++---------------------------------------------+\n|  2  | Web development-Coding-programming    |  8   | Coding-scripting languages            |\n+---------------------------------------------++---------------------------------------------+\n|  3  | Scripting- Programming language       |  9   | Distributed systems- Data Analytics   |')
 print('+---------------------------------------------++---------------------------------------------+\n|  4  | Network Architecture- security        |  10  | Programming-scripting-data            |\n+---------------------------------------------++---------------------------------------------+\n|  5  | Network Protocols- Coding             |  11  | AWS solutions-network architecture    |')
@@ -49,19 +48,18 @@ while interest_list <= length: #we will run the loop the number of times that th
     
 print()
 tanz = input('Would you like to learn more? (y/n) ')   #no reason at all we named that variable 
-for tanz1 in tanz: #another loop that w
+for tanz1 in tanz: #another loop that we use to check for errors in user input
     if tanz == 'y':
         lyda = input('Please enter the number of the corresponding career pathway that you would like to learn more about:')
-#lyda = int(lyda)
-        if int(lyda) > length:
+        if int(lyda) > length: 
             print("Invalid option. It can not be greater than", length)
             break
         skills=(paths[(int(lyda)-1)])
         fhand = open('descriptions.txt')  # opening the txt file
         for line in fhand:
-            if line.startswith(skills):
+            if line.startswith(skills): #
                 line1 = line
-                def printout():
+                def printout(): #creating a function
                     messagebox.showinfo("AWS Career Paths", line1)
     
                 root = tkinter.Tk()
