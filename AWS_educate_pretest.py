@@ -57,7 +57,7 @@ for tanz1 in tanz: #another loop that we use to check for errors in user input
         skills=(paths[(int(lyda)-1)])
         fhand = open('descriptions.txt')  # opening the txt file
         for line in fhand:
-            if line.startswith(skills): #
+            if line.startswith(skills): 
                 line1 = line
                 def printout(): #creating a function
                     messagebox.showinfo("AWS Career Paths", line1)
